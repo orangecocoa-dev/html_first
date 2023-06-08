@@ -1,3 +1,35 @@
-body    {font-family: 'メイリオ';}
+body    {font-family: 'メイリオ'; 
+        background-color: #e0ffff;}
 
-h1  {font-size: 38px;}
+h1  {font-family: 'メイリオ';
+    font-size: 40px;
+    }
+
+h2  {font-family: 'メイリオ';
+        color: blue;
+        font-size: 30px;
+}
+
+p   {line-height: 1.5;}
+
+/*ヘッダー*/
+header  {background-color: #00bfff;}
+
+/*記事*/
+article {background-color: #ffffff;
+        width: 1200px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 10px;}
+
+/*画像*/
+figure.apl-photo img {width:300px}
+
+
+/*ナビゲーションメニュー*/
+nav ul  {list-style-type: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;}
+nav li  {display: inline;}
+
